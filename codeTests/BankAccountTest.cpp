@@ -86,6 +86,8 @@ void test_system_flow() {
 }
 
 // White-Box Testing
+//Here I am using Control Flow Testing technique to ensure all the branches in the code 
+//are executed at least once. For ex testing the withdraw method to check valid and invalid paths 
 void test_withdraw_control_flow() {
     BankAccount account(100.0);
 
